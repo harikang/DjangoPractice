@@ -1,0 +1,59 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - HariKang</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>About Me - HariKang 강하리</h1>
+    </header>
+    <main>
+        <section id="profile">
+            <img src="{% static 'profile.jpg' %}" alt="HariKang's Profile Picture" width="200px">
+            <h2>HariKang</h2>
+            <p>Hi, I'm HariKang! </p>
+            <p>안녕하세요, 저는 강하리입니다:> </p>
+            <p>I'm an AI Researcher with a passion for applying and researching various AI Models.</p>
+            <p>다양한 분야의 인공지능 모델에 대해 연구하고 있고, 적용할 수 있는 사람입니다!</p>
+        </section>
+        <section id="education">
+            <h3>Education</h3>
+            <ul>
+                <li><strong>Bachelor of Electric and Electronical Engineering</strong>, Yonsei University, 2019</li>
+                <li><strong>Master of Electric and Electronical Engineering</strong>, Yonsei University, 2023</li>
+            </ul>
+        </section>
+        <section id="experience">
+            <h3>Experience</h3>
+            <ul>
+                <li><strong>한국수출입협동조합</strong> at 한국 수출입은행, 2021 - 2021</li>
+                <li><strong>YAI 연구부원</strong> at Yonsei Univ, 2023 - Present</li>
+                <li><strong>SKT FLY AI project 최우수상 </strong> at SKT, 2023 - 2023</li>
+                <li><strong>KDT-Hackathon</strong> at WebSolutions, 2019 - 2020</li>
+                <li><strong>Human Activity Recognition based on the GRU with Augmented Wi-Fi CSI Signals</strong> , IEEE TENCON2024 2024</li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>Python, Pytorch</li>
+                <li>SQL, SQLites, Django</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h3>Contact</h3>
+            <p>Email: hariver1220@yonsei.ac.kr</p>
+            <p>github: <a href="https://github.com/harikang" target="_blank">github.com/harikang</a></p>
+            <p>blog: <a href="https://blog.naver.com/hariver1220" target="_blank">blog.naver.com/hariver1220</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 HariKang. All rights reserved.</p>
+    </footer>
+</body>
+</html>
